@@ -1,0 +1,189 @@
+/*Restes*/
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1, h2 {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+}
+
+p {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+}
+
+/*Headers*/
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+.logo {
+	font: 2em Arial;
+	margin: 0 0 10px 0;
+	padding: 0;
+	width: 200px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*Container*/
+
+body {
+	background: #4CAF50;
+	font: 0.8em Arial;
+}
+
+div#container {
+	height: 600px;
+}
+
+#container, footer {
+	background: #fff;
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	width: 940px;
+	padding: 10px;
+	margin: 0 auto 10px auto;
+}
+
+#conatiner {
+	min-height: 500px;
+	border-radius: 5px 5px 0 0;
+}
+
+.widget {
+	margin-bottom: 20px;
+}
+
+.widget h2 {
+	margin: 0 0 10px 0;
+	padding: 0 5px;
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+}
+
+.widget .inner {
+	margin: 0 10px;
+}
+
+/*Navigation*/
+
+nav {
+	float: left;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li.current {
+	font-weight: bold;
+}
+
+nav ul li a.last {
+	border-right: 0;
+}
+
+/*Aside*/
+
+aside {
+	width: 206px;
+	float: right;
+	border-left: 1px dashed #aaa;
+	padding-left: 15px;
+}
+
+/*Profile*/
+
+.profile {
+	background: #F9F9F9;
+	border: 1px dashed #ccc;
+	padding: 5px;
+}
+
+.profile input[type=submit] {
+	margin-top: 5px;
+}
+
+.profile img {
+	width: 100%;
+}
+
+/*Member List*/
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*Login*/
+
+#login li.link, #login li {
+	margin-top: 5px;
+}
+
+/*Footer*/
+
+footer {
+	border-top: 1px dashed #ddd;
+	color: #999;
+}
+
+/*Misc*/
+
+.clear {
+	clear: both;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
